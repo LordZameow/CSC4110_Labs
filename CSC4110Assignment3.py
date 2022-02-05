@@ -187,11 +187,11 @@ while balance != 0:
 
 #generate random password of 42 chars in length
 def GenPassword():
-    password=""
+    passwd=""
     while True:
         for i in range(42):
             info = random.randrange(60,123,1) #generate random characters
-            password += chr(info)
+            passwd += chr(info)
         break
     return passwd
 
