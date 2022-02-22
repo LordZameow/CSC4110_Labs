@@ -4,13 +4,13 @@
 #program will:
 #               pertain 14 different steps
                         
-#1.first name declaration
+#1.first name declaration (lower case)
 firstname = "timothy"
 
-#2.last name declaration
+#2.last name declaration (upper case)
 lastname = "ARMSTRONG"
 
-#3.change first name to upper case leter, change last anme to lower case
+#3.change first name to upper case leter, change last name to lower case
 fn = firstname.upper()
 ln = lastname.lower()
 
@@ -39,7 +39,7 @@ print(fullname)
 #                                   "Start by doing what's necessary; then do 
 #                                   what's possible; and suddenly you are doing 
 #                                   the impossible - Francis of Assisi"
-
+#Note: using """ to allow for all special characters to be used
 print(f""""Start by doing what's necessary; then do\nwhat's possible; and suddenly you are doing\nthe imposible - Francis of Assisi" """)
 
 #9. store 2 deciaml numbers as variables 
@@ -53,7 +53,7 @@ numadd = num1 + num2
 numsub = num2 - num1
 #multiplication 
 nummul = num1 * num2
-#divide
+#divition
 numdiv = num2 / num1
 
 #11. print out each of the four results using differnent methods
